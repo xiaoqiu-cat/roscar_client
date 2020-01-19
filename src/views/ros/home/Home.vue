@@ -7,6 +7,12 @@
                       </el-carousel-item>
                   </el-carousel>
         </div>
+        <div class="video-wrapper">
+            <div class="title-video">
+                ROS 激光雷达小车 操作演示
+            </div>
+            <video id="video" src="http://qiniu.newtechcollege.com/f89f8581" controls></video>
+        </div>
         <div class="footer">
             <div class="footer-img">
                 <img src="http://droitthemes.com/html/saasland/img/seo/footer_bg.png" alt="">
@@ -54,7 +60,8 @@ export default {
               min-height: calc(100vh - 460px);
               width: 1024px;
               .banner-ros{
-                  margin: 50px auto;
+                  margin:0 auto;
+                  margin-top: 50px;
                   .el-carousel__item:nth-child(2n) {
                     background-color: #99a9bf;
                   }
@@ -67,6 +74,18 @@ export default {
                     height: 100%;
                   }
               }
+          }
+          .video-wrapper{
+            width: 1080px;
+            margin: 10px auto;
+            margin-bottom: 150px;
+            .title-video{
+              font-size: 30px;
+            }
+            #video{
+              height: 500px;
+              width: auto;
+            }
           }
           .footer{
             text-align: center;
