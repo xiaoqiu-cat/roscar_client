@@ -16,10 +16,12 @@ export default {
 </script>
 <style lang="scss" scoped>
     .about_container{
-        margin: 0 auto;
         max-width: 900px;
+        margin: 0 auto;
         height: 100%;
         .content{
+            overflow: hidden;
+            padding: 0 20px;
             h1{
                 font-size: 30px;
                 margin: 30px 0;

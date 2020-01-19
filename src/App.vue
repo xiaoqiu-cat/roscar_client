@@ -6,7 +6,6 @@
 
 <style lang="scss">
   #app{
-    height: 100%;
     background-color: #fff;
   }
 </style>
