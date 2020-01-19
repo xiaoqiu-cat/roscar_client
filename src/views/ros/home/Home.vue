@@ -44,6 +44,11 @@ export default {
   mounted () {
    
   },
+  computed : {
+    newyear(){
+      return 2020
+    }
+  },
   methods: {
     
   }
